@@ -68,7 +68,7 @@ const initEditor = function () {
     // cypress使用
     Reflect.set(window, "editor", instance);
 
-    instance.use(cardPlugin, { apiKey: "sk-255be871772843298ccc1cc891d63ba7" });
+    instance.use(cardPlugin, { apiKey: "sk-255xxxxxxxxxxx" });
 
     // testFunction(instance);
 
