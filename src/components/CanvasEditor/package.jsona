@@ -13,7 +13,7 @@
     "README.md",
     "CHANGELOG.md",
     "LICENSE",
-    "package.json"
+    "about.json"
   ],
   "typings": "./dist/src/editor/index.d.ts",
   "main": "./dist/canvas-editor.umd.js",

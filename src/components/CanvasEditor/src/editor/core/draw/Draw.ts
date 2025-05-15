@@ -1,4 +1,4 @@
-import { version } from '../../../../package.json'
+import { version } from '../../../../about.json'
 import { ZERO } from '../../dataset/constant/Common'
 import { RowFlex } from '../../dataset/enum/Row'
 import type {

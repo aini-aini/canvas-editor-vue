@@ -1,12 +1,12 @@
-import { version } from '../../../../package.json'
+import { version } from '../../../../about.json'
 import { Draw } from '../draw/Draw'
 import WordCountWorker from './works/wordCount?worker&inline'
 import CatalogWorker from './works/catalog?worker&inline'
 import GroupWorker from './works/group?worker&inline'
 import ValueWorker from './works/value?worker&inline'
-import { ICatalog } from '../../interface/Catalog'
-import { IEditorResult } from '../../interface/Editor'
-import { IGetValueOption } from '../../interface/Draw'
+import type { ICatalog } from '../../interface/Catalog'
+import type { IEditorResult } from '../../interface/Editor'
+import type { IGetValueOption } from '../../interface/Draw'
 import { deepClone } from '../../utils'
 
 export class WorkerManager {
