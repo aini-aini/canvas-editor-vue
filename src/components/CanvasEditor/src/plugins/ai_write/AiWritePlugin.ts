@@ -90,4 +90,23 @@ export class AiWritePlugin implements IAiWritePlugin {
   // public insertTable(...) { this.tableRenderer.insertTable(...) }
   // public insertImage(...) { this.imageRenderer.insertImage(...) }
   // public insertList(...) { this.listRenderer.insertList(...) }
+
+  public getCursorInfo() {
+    return (this as any).editor.command.getCursorPosition()
+  }
+  public getCurrentRowElements() {
+    return (this as any).editor.command.getRangeRow()
+  }
+  public getCurrentParagraphElements() {
+    return (this as any).editor.command.getRangeParagraph()
+  }
+  public getCursorContext() {
+    return (this as any).editor.command.getRangeContext()
+  }
+  public getAllElementPositionList() {
+    return (this as any).editor.command.executeGetAllElementPositionList()
+  }
+  public setCursorToIndex(index: number) {
+    (this as any).editor.command.executeSetRange(index, index)
+  }
 }

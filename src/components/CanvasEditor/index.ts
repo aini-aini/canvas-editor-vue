@@ -70,7 +70,7 @@ const initEditor = function () {
 
     instance.use(cardPlugin, { apiKey: "sk-255be871772843298ccc1cc891d63ba7" });
 
-    testFunction(instance);
+    // testFunction(instance);
 
     // 菜单弹窗销毁
     window.addEventListener(

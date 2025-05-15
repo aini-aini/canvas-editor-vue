@@ -543,6 +543,20 @@ ul {
   padding: 0 110px;
 }
 
+.menu {
+  width: 100%;
+  height: 60px;
+  /* top: 0; */
+  /* z-index: 9; */
+  /* position: fixed; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: #F2F4F7; */
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 transparent;
+}
+
 .doc_setting {
   height: 40px;
   display: flex;
