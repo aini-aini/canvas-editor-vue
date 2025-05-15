@@ -14,4 +14,5 @@ npm install
 npm run dev
 ```
 
-### 
+### ![image-20250515204127794](https://aini-1353577041.cos.ap-shanghai.myqcloud.com/image-20250515204127794.png)
+
